@@ -1,38 +1,22 @@
-.App {
-  text-align: center;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+	font-family: 'Atkinson';
+	src: url('../public/fonts/atkinson-regular.woff') format('woff');
+	font-weight: 400; 
+	font-style: normal;
+	font-display: swap;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  scroll-behavior: smooth;
+  background: rgb(40, 40, 71);
+  font-family: 'Atkinson', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+li {
+    margin-left: 10px;
+    list-style-type: circle;
+ }
