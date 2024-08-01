@@ -28,8 +28,8 @@ export default function App() {
             transform: "rotate(2deg)",
           }}
         >
-          welcome to the corner of the internet i’m renting for $10.94 this
-          year!
+          welcome to the corner of the internet i’m renting for $10.94 this year
+          /ᐠ｡ꞈ｡ᐟ\
         </p>
       </div>
 
@@ -38,11 +38,32 @@ export default function App() {
           <About />
         </div>
         {/*<img src="https://cloud-f0tj1z2sp-hack-club-bot.vercel.app/0image.png" alt="Description" className="absolute w-[300px] h-auto top-[500px] right-[200px]" /> */}
-
       </div>
 
-      
-      <div className="mt-10">
+      <div className="flex flex-col justify-center items-center pt-16 pb-10">
+        <div className="flex flex-col items-center pr-60">
+          <Textbox
+            width="350"
+            height="120"
+            name="tip.exe"
+            text="also: i give stickers to those who chat with me in person! please say
+            hi, i may be awkward but i don't bite :3"
+          />
+        </div>
+      </div>
+
+      <div className="flex flex-col items-center pt-60 pb-10">
+        <div className="flex flex-col items-center">
+          <Textbox
+            width="300"
+            height="80"
+            name="midnight_thoughts.exe"
+            text="this site is currently a wip!"
+          />
+        </div>
+      </div>
+
+      <div className="mt-28">
         <Footer />
       </div>
     </div>
@@ -244,7 +265,7 @@ function About() {
             design + art stuff - i've plastered this site with stuff i've made
             :) ily figma + procreate
           </li>
-          <li className="pb-2">yap - i mean, debate! (bp best format)</li>
+          <li className="pb-2">yap - i mean, debate~ (bp best format)</li>
           <li className="pb-2">
             play magic the gathering! if you see me in person, feel free to ask
             for a game.
@@ -276,3 +297,71 @@ function Footer() {
     </footer>
   );
 }
+
+const Textbox = ({ width,height, name, text }) => {
+  return (
+    <Rnd
+      style={{
+        background: "#6BF6FF80",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        cursor: "pointer",
+        padding: "10px",
+        height: `$(height)px`,
+      }}
+      default={{
+        x: 0,
+        y: 0,
+        width: width,
+        height: height,
+      }}
+      enableResizing={false}
+    >
+      <div
+        style={{
+          width: "99%",
+          height: "20px",
+          background: "blue",
+          position: "absolute",
+          top: "1px",
+          color: "white",
+        }}
+      >
+        <div
+          style={{
+            marginLeft: "5px",
+            fontSize: "15px",
+          }}
+        >
+          {name}
+        </div>
+        <div
+          style={{
+            width: "16px",
+            height: "16px",
+            background: "#6BF6FF80",
+            position: "absolute",
+            right: "2px",
+            top: "2px",
+          }}
+        ></div>
+      </div>
+      <div
+        style={{
+          flex: 1,
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          padding: "14px",
+          paddingTop: "40px",
+          boxSizing: "border-box",
+          color: "white",
+          lineHeight: "1.2",
+        }}
+      >
+        {text}
+      </div>
+    </Rnd>
+  );
+};
