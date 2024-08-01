@@ -5,7 +5,7 @@ import React, { useState } from "react";
 
 export default function App() {
   return (
-    <div class="text-white">
+    <div>
       <div className="mt-28">
         <p
           className="absolute left-[38vw] text-4xl"
@@ -37,10 +37,14 @@ export default function App() {
         <div className="flex flex-col justify-center items-center p-64 m-6">
           <About />
         </div>
+        {/*<img src="https://cloud-f0tj1z2sp-hack-club-bot.vercel.app/0image.png" alt="Description" className="absolute w-[300px] h-auto top-[500px] right-[200px]" /> */}
+
       </div>
 
-
-      <div className="mt-10"><Footer /></div>
+      
+      <div className="mt-10">
+        <Footer />
+      </div>
     </div>
   );
 }
@@ -240,11 +244,10 @@ function About() {
             design + art stuff - i've plastered this site with stuff i've made
             :) ily figma + procreate
           </li>
+          <li className="pb-2">yap - i mean, debate! (bp best format)</li>
           <li className="pb-2">
-            yap - i mean, debate! (bp best format)
-          </li>
-          <li className="pb-2">
-            play magic the gathering! if you see me in person, feel free to ask for a game.
+            play magic the gathering! if you see me in person, feel free to ask
+            for a game.
           </li>
         </ul>
 
@@ -260,16 +263,16 @@ function About() {
 function Footer() {
   return (
     <footer>
-    <div style={{
-      padding: "20px",
-      backgroundColor: "#222",
-      color: "white",
-      textAlign: "center"
-    }}>
-      2024 acon // check out the [github repo]!
-
-    </div>
-  </footer>
-  )
-  
+      <div
+        style={{
+          padding: "40px",
+          backgroundColor: "#222",
+          color: "white",
+          textAlign: "center",
+        }}
+      >
+        2024 acon // check out the [github repo]!
+      </div>
+    </footer>
+  );
 }

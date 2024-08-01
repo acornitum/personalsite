@@ -14,6 +14,7 @@ body {
   scroll-behavior: smooth;
   background: rgb(40, 40, 71);
   font-family: 'Atkinson', sans-serif;
+  color: white;
 }
 
 li {
