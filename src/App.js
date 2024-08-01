@@ -292,7 +292,7 @@ function Footer() {
           textAlign: "center",
         }}
       >
-        2024 acon // check out the [github repo]!
+        2024 acon // check out the <a href="https://github.com/acornitum/personalsite" className="text-cmykBlue">github repo</a>!
       </div>
     </footer>
   );
