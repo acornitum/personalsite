@@ -11,3 +11,42 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+@keyframes fontRotate {
+  0% {
+    font-family: 'Courier New', sans-serif;
+  }
+  20% {
+    font-family: 'Open Sans', sans-serif;
+  }
+  40% {
+    font-family: 'Lobster', cursive;
+  }
+  60% {
+    font-family: 'Inter', sans-serif;
+  }
+  80% {
+    font-family: 'Roboto', sans-serif;
+  }
+  100% {
+    font-family: 'Courier New', sans-serif;
+  }
+}
+
+.title-font:hover {
+  animation: fontRotate 1s infinite;
+}
+
+.title-font2:hover {
+  animation: fontRotate 1.3s infinite;
+}
+
+.title-font3:hover {
+  animation: fontRotate 1.7s infinite;
+}

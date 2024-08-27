@@ -28,7 +28,7 @@ export default function App() {
             transform: "rotate(2deg)",
           }}
         >
-          welcome to the corner of the internet i’m renting for $10.94 this year
+          welcome to the corner of the internet i’m renting for $10.37 this year
           /ᐠ｡ꞈ｡ᐟ\
         </p>
       </div>
@@ -75,9 +75,10 @@ function Status() {
     "i hope this site isn't broken",
     "probably writing fanfiction",
     "squashing some bugs",
-    "will respond in 1-3 buisness days",
+    "will respond in 1-3 business days",
     "captured in 4k!",
     "... mrow? ... ... :3",
+    "hover over my name for a cool effect!"
   ];
 
   const [currentText, setCurrentText] = useState(textOptions[0]);
@@ -153,14 +154,14 @@ function Status() {
 
 function Title() {
   return (
-    <div className="relative text-9xl inline-block text-center w-10 h-10 font-bold">
-      <div className="absolute @apply -translate-x-[46%] -translate-y-[54%] left-2/4 top-2/4 text-cmykYel">
+    <div className="relative text-9xl inline-block text-center w-10 h-10 font-bold title-font2">
+      <div className="absolute @apply -translate-x-[46%] -translate-y-[54%] left-2/4 top-2/4 text-cmykYel title-font">
         acon
       </div>
-      <div className="absolute @apply -translate-x-[48%] -translate-y-[52%] left-2/4 top-2/4 text-cmykBlue">
+      <div className="absolute @apply -translate-x-[48%] -translate-y-[52%] left-2/4 top-2/4 text-cmykBlue title-font2">
         acon
       </div>
-      <div className="absolute @apply -translate-x-2/4 -translate-y-2/4 left-2/4 top-2/4 text-cmykMag">
+      <div className="absolute @apply -translate-x-2/4 -translate-y-2/4 left-2/4 top-2/4 text-cmykMag title-font3">
         acon
       </div>
     </div>
@@ -247,7 +248,7 @@ function About() {
 
         <p className="pb-4">
           right now, i'm located in vermont, usa. but!! i grew up in waterloo,
-          ontario, canada :D
+          ontario, canada. <i><s>rawr</s></i>
         </p>
 
         <p className="pb-2 pt-4">some things i do:</p>
@@ -292,13 +293,16 @@ function Footer() {
           textAlign: "center",
         }}
       >
-        2024 acon // check out the <a href="https://github.com/acornitum/personalsite" className="text-cmykBlue">github repo</a>!
+        <p>
+          built by acon 2024 // check out the <a href="https://github.com/acornitum/personalsite" className="text-cmykBlue" target="_blank" rel="noopener noreferrer">github repo</a>!
+        </p>
+        <p className="text-gray-400"><i>happy. undisturbed. in my <s>lane</s> digital rundown site.</i></p>
       </div>
     </footer>
   );
 }
 
-const Textbox = ({ width,height, name, text }) => {
+const Textbox = ({ width, height, name, text }) => {
   return (
     <Rnd
       style={{
