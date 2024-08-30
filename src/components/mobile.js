@@ -237,7 +237,7 @@ function About() {
 
         <p className="pb-2 pt-4">some things i do:</p>
 
-        <ul className="pl-2">
+        <ul className="">
           <li className="pb-2">
             code! i built this site using react + tailwind. check out my{" "}
             <s>wasteland</s>{" "}
@@ -250,13 +250,9 @@ function About() {
             design + art stuff - i've plastered this site with stuff i've made
             :) ily figma + procreate
           </li>
-          <li className="pb-2">yap - i mean, debate~ (bp best format)</li>
+          <li className="pb-8">yap - i mean, debate~ (bp best format)</li>
         </ul>
 
-        <p className="pt-8 pb-6 text-sm italic">
-          by the way, you can interact with these boxes! drag 'em around, move
-          'em offscreen, and prolly more.
-        </p>
       </div>
 
       </div>
