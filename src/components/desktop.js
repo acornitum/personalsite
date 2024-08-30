@@ -248,7 +248,7 @@ function About() {
           right now, i'm located in vermont, usa. but!! i grew up in waterloo,
           ontario, canada.{" "}
           <i>
-            <s>rawr</s>
+            <s>rawhh</s>
           </i>
         </p>
 
@@ -276,7 +276,7 @@ function About() {
 
         <p className="pt-8 pb-4 text-sm italic">
           by the way, you can interact with these boxes! drag 'em around, move
-          'em offscreen, i don't care. no undos.
+          'em offscreen, and prolly more.
         </p>
       </div>
     </Rnd>
