@@ -4,24 +4,13 @@ export default function Mobile() {
   return (
     <div className="m-5">
       <div className="flex flex-col justify-center items-center pt-16 pb-4 p-2 text-center">
-        <p className="text-2xl flex flex-col justify-center items-center pb-6">
-          hi! i'm
-        </p>
-        <Title />
-        <p className="text-5xl pb-6 text-cmykMag">
-          acon
-        </p>
-        <p className="text-5xl flex flex-col justify-center items-center pb-6 text-cmykMag font-bold">
-          acon
-        </p>
-        <p className="text-5xl flex flex-col justify-center items-center pb-6 font-bold">
-          acon
-        </p>
-        <p className="text-5xl flex flex-col justify-center items-center pb-6 text-cmykMag">
-          acon
+        <p className="text-2xl flex flex-col justify-center items-center">
+          hi! i'm  
         </p>
 
-        <p className="pt-10 p-2">
+        <Title />
+        
+        <p className="p-2">
           welcome to the mobile version of my site! <br />
           /ᐠ｡ꞈ｡ᐟ\
         </p>
