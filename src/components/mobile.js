@@ -7,32 +7,18 @@ export default function Mobile() {
         <p className="text-2xl flex flex-col justify-center items-center pb-6">
           hi! i'm
         </p>
-        <p className="text-2xl pb-6">
-          hi! i'm
-        </p>
-        <p className="text-3xl pb-6">
-          hi! i'm
-        </p>
-        <p className="text-4xl pb-6">
-          hi! i'm
-        </p>
-        <p className="text-5xl pb-6">
-          hi! i'm
-        </p>
-        <p className="text-6xl pb-6 text-cmykMag">
-          hi! i'm
-        </p>
-        <p className="text-6xl pb-6 text-cmykMag">
+        <Title />
+        <p className="text-5xl pb-6 text-cmykMag">
           acon
         </p>
-        <p className="text-6xl flex flex-col justify-center items-center pb-6 text-cmykMag font-bold">
-          aconi
+        <p className="text-5xl flex flex-col justify-center items-center pb-6 text-cmykMag font-bold">
+          acon
         </p>
-        <p className="text-6xl flex flex-col justify-center items-center pb-6 font-bold">
-          aconi
+        <p className="text-5xl flex flex-col justify-center items-center pb-6 font-bold">
+          acon
         </p>
-        <p className="text-6xl flex flex-col justify-center items-center pb-6 text-cmykMag">
-          aconi
+        <p className="text-5xl flex flex-col justify-center items-center pb-6 text-cmykMag">
+          acon
         </p>
 
         <p className="pt-10 p-2">
@@ -268,6 +254,22 @@ function About() {
 
       </div>
       
+    </div>
+  );
+}
+
+function Title() {
+  return (
+    <div className="relative inline-block text-center w-10 h-10 font-bold title-font2" style={{fontSize: "8rem"}}>
+      <div className="absolute @apply -translate-x-[46%] -translate-y-[54%] left-2/4 top-2/4 text-cmykYel title-font">
+        acon
+      </div>
+      <div className="absolute @apply -translate-x-[48%] -translate-y-[52%] left-2/4 top-2/4 text-cmykBlue title-font2">
+        acon
+      </div>
+      <div className="absolute @apply -translate-x-2/4 -translate-y-2/4 left-2/4 top-2/4 text-cmykMag title-font3">
+        acon
+      </div>
     </div>
   );
 }
