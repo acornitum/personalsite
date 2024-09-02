@@ -260,7 +260,7 @@ function About() {
 
 function Title() {
   return (
-    <div className="relative inline-block text-center w-10 h-10 font-bold title-font2" style={{fontSize: "8rem"}}>
+    <div className="relative inline-block text-center w-10 h-10 font-bold title-font2" style={{fontSize: "3rem"}}>
       <div className="absolute @apply -translate-x-[46%] -translate-y-[54%] left-2/4 top-2/4 text-cmykYel title-font">
         acon
       </div>
