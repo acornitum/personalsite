@@ -7,7 +7,13 @@ export default function Mobile() {
         <p className="text-2xl flex flex-col justify-center items-center pb-6">
           hi! i'm
         </p>
-        <p className="text-9xl flex flex-col justify-center items-center pb-6 text-cmykMag">
+        <p className="text-9xl flex flex-col justify-center items-center pb-6 text-cmykMag font-bold">
+          acon
+        </p>
+        <p className="text-8xl flex flex-col justify-center items-center pb-6 font-bold">
+          acon
+        </p>
+        <p className="text-8xl flex flex-col justify-center items-center pb-6 text-cmykMag">
           acon
         </p>
 
