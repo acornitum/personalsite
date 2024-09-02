@@ -13,10 +13,10 @@ export default function Mobile() {
 
         <Title />
         
-        {/*<p className="p-2">
-          welcome to the mobile version of my site! <br />
+        <p>
+          maker of things
           /ᐠ｡ꞈ｡ᐟ\
-        </p>*/}
+        </p>
       </div>
 
       <div>
