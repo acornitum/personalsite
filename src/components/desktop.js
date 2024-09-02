@@ -36,7 +36,6 @@ export default function Desktop() {
         <div className="flex flex-col justify-center items-center p-64 m-6">
           <About />
         </div>
-        {/*<img src="https://cloud-f0tj1z2sp-hack-club-bot.vercel.app/0image.png" alt="Description" className="absolute w-[300px] h-auto top-[500px] right-[200px]" /> */}
       </div>
 
       <div className="flex flex-col justify-center items-center pt-16 pb-10">
@@ -396,8 +395,17 @@ function Stickers() {
     />
     <img
       src="https://cloud-ait4cefi2-hack-club-bot.vercel.app/0aconanime.png"
-      alt="aconanimesticker"
-      className="absolute top-96 right-12 transform -translate-x-1/2 mx-auto w-72 h-auto rotate-12"
+      alt="acon anime sticker"
+      className="absolute left-48 transform -translate-x-1/2 mx-auto w-72 h-auto -rotate-90"
+      style={{transform: 'rotate(-45deg)', top:'350px'
+      }}
+      draggable="false"
+    />
+    <img
+      src="https://cloud-lb566uwis-hack-club-bot.vercel.app/0image.png"
+      alt="figma anime parody"
+      className="absolute top-96 transform -translate-x-1/2 mx-auto w-72 h-auto rotate-12 opacity-35"
+      style={{right:'120px'}}
       draggable="false"
     />
     </div>
