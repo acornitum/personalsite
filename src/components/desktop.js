@@ -408,6 +408,20 @@ function Stickers() {
       style={{right:'120px'}}
       draggable="false"
     />
+    <img
+      src="https://cloud-cn1eo77un-hack-club-bot.vercel.app/0image.png"
+      alt="favicon cat art"
+      className="absolute top-72 transform -translate-x-1/2 mx-auto w-28 h-auto rotate-6 opacity-90"
+      style={{right:'240px'}}
+      draggable="false"
+    />
+    <img
+      src="https://cloud-9dru5n6rx-hack-club-bot.vercel.app/0image.png"
+      alt="moth dragon oc art"
+      className="absolute transform -translate-x-1/2 mx-auto w-72 h-auto rotate-12"
+      style={{right:'120px', top:"480px"}}
+      draggable="false"
+    />
     </div>
     
   );
