@@ -7,7 +7,7 @@ export default function Mobile() {
         <p className="text-2xl flex flex-col justify-center items-center pb-6">
           hi! i'm
         </p>
-        <Title />
+        <Title2 />
         <p className="pt-10 p-2">
           welcome to the mobile version of my site! <br />
           /ᐠ｡ꞈ｡ᐟ\
@@ -50,12 +50,21 @@ function Title() {
       </div>
       <div className="absolute @apply -translate-x-[48%] -translate-y-[52%] left-2/4 top-2/4 text-cmykBlue title-font2">
         acon
-      </div>*/}
+      </div>
       <div className="absolute @apply -translate-x-2/4 -translate-y-2/4 left-2/4 top-2/4 text-cmykMag title-font3">
         acon
-      </div>
+      </div>*/}
     </div>
   );
+}
+
+function Title2() {
+  return(
+    <div className="text-9xl font-bold text-cmykMag">
+      acon
+    </div>
+  )
+
 }
 
 function Socials() {
