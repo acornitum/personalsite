@@ -50,3 +50,7 @@ code {
 .title-font3:hover {
   animation: fontRotate 1.7s infinite;
 }
+
+.sticker:hover {
+  opacity: 1;
+}

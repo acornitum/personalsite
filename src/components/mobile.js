@@ -45,12 +45,12 @@ export default function Mobile() {
 function Title() {
   return (
     <div className="relative text-9xl inline-block text-center w-10 h-10 font-bold title-font2">
-      <div className="absolute @apply -translate-x-[46%] -translate-y-[54%] left-2/4 top-2/4 text-cmykYel title-font">
+      {/*<div className="absolute @apply -translate-x-[46%] -translate-y-[54%] left-2/4 top-2/4 text-cmykYel title-font">
         acon
       </div>
       <div className="absolute @apply -translate-x-[48%] -translate-y-[52%] left-2/4 top-2/4 text-cmykBlue title-font2">
         acon
-      </div>
+      </div>*/}
       <div className="absolute @apply -translate-x-2/4 -translate-y-2/4 left-2/4 top-2/4 text-cmykMag title-font3">
         acon
       </div>

@@ -4,6 +4,7 @@ import React, { useState } from "react";
 export default function Desktop() {
   return (
     <div>
+      <Stickers />
       <div className="mt-28">
         <p
           className="absolute left-[38vw] text-4xl"
@@ -383,3 +384,23 @@ const Textbox = ({ width, height, name, text }) => {
     </Rnd>
   );
 };
+
+function Stickers() {
+  return (
+    <div className="select-none opacity-50 sticker">
+      <img
+      src="https://cloud-f0tj1z2sp-hack-club-bot.vercel.app/0image.png"
+      alt="sleep deprived anime sticker"
+      className="absolute top-52 left-72 transform -translate-x-1/2 mx-auto w-72 h-auto -rotate-12"
+      draggable="false"
+    />
+    <img
+      src="https://cloud-ait4cefi2-hack-club-bot.vercel.app/0aconanime.png"
+      alt="aconanimesticker"
+      className="absolute top-96 right-12 transform -translate-x-1/2 mx-auto w-72 h-auto rotate-12"
+      draggable="false"
+    />
+    </div>
+    
+  );
+}
