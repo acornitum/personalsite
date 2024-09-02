@@ -4,16 +4,19 @@ export default function Mobile() {
   return (
     <div className="m-5">
       <div className="flex flex-col justify-center items-center pt-16 pb-4 p-2 text-center">
-        <p className="text-2xl flex flex-col justify-center items-center">
-          hi! i'm  
-        </p>
+
+        <img
+          src="https://cloud-cn1eo77un-hack-club-bot.vercel.app/0image.png"
+          alt="acon cat logo"
+          className="w-24 h-auto mb-2"
+        />
 
         <Title />
         
-        <p className="p-2">
+        {/*<p className="p-2">
           welcome to the mobile version of my site! <br />
           /ᐠ｡ꞈ｡ᐟ\
-        </p>
+        </p>*/}
       </div>
 
       <div>
@@ -106,7 +109,7 @@ const Link = ({ icon, name, link }) => {
     <a href={`${link}`} target="_blank" rel="noopener noreferrer">
       <div
         className="bg-cmykMag bg-opacity-50 h-18 rounded-lg mx-auto my-4"
-        style={{ width: "95%" }}
+        style={{ width: "95%", background: "linear-gradient(to right, #7B489A, #3F80B5)"}}
       >
         <div className="p-4 flex items-center justify-center">
           {icon}
@@ -233,8 +236,7 @@ function About() {
             !
           </li>
           <li className="pb-2">
-            design + art stuff - i've plastered this site with stuff i've made
-            :) ily figma + procreate
+            design + art stuff - i use figma and procreate!
           </li>
           <li className="pb-8">yap - i mean, debate~ (bp best format)</li>
         </ul>
@@ -249,7 +251,7 @@ function About() {
 
 function Title() {
   return (
-    <div className="relative inline-block text-center w-10 h-10 font-bold title-font2" style={{fontSize: "3rem"}}>
+    <div className="relative inline-block text-center w-10 h-10 font-bold title-font2" style={{fontSize: "36px"}}>
       <div className="absolute @apply -translate-x-[46%] -translate-y-[54%] left-2/4 top-2/4 text-cmykYel title-font">
         acon
       </div>
