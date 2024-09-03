@@ -4,7 +4,6 @@ export default function Mobile() {
   return (
     <div className="m-5">
       <div className="flex flex-col justify-center items-center pt-16 pb-4 p-2 text-center">
-
         <img
           src="https://cloud-cn1eo77un-hack-club-bot.vercel.app/0image.png"
           alt="acon cat logo"
@@ -12,11 +11,8 @@ export default function Mobile() {
         />
 
         <Title />
-        
-        <p>
-          i make things sometimes
-          /ᐠ｡ꞈ｡ᐟ\
-        </p>
+
+        <p>i make things sometimes /ᐠ｡ꞈ｡ᐟ\</p>
       </div>
 
       <div>
@@ -109,7 +105,10 @@ const Link = ({ icon, name, link }) => {
     <a href={`${link}`} target="_blank" rel="noopener noreferrer">
       <div
         className="bg-cmykMag bg-opacity-50 h-18 rounded-lg mx-auto my-4"
-        style={{ width: "95%", background: "linear-gradient(to right, #7B489A, #3F80B5)"}}
+        style={{
+          width: "95%",
+          background: "linear-gradient(to right, #7B489A, #3F80B5)",
+        }}
       >
         <div className="p-4 flex items-center justify-center">
           {icon}
@@ -192,66 +191,66 @@ function About() {
         </div>
 
         <div
-        style={{
-          flex: 1,
-          display: "flex",
-          alignItems: "flex-start",
-          justifyContent: "flex-start",
-          flexDirection: "column",
-          paddingLeft: "30px",
-          paddingRight: "30px",
-          paddingTop: "40px",
-          boxSizing: "border-box",
-          color: "white",
-          lineHeight: "1.2",
-        }}
-      >
-        <p className="pb-4">greetings! i go by acon :3</p>
+          style={{
+            flex: 1,
+            display: "flex",
+            alignItems: "flex-start",
+            justifyContent: "flex-start",
+            flexDirection: "column",
+            paddingLeft: "30px",
+            paddingRight: "30px",
+            paddingTop: "40px",
+            boxSizing: "border-box",
+            color: "white",
+            lineHeight: "1.2",
+          }}
+        >
+          <p className="pb-4">greetings! i go by acon :3</p>
 
-        <p className="pb-4">
-          i'm currently building things @{" "}
-          <a href="https://hackclub.com" className="text-cmykYel">
-            hack club
-          </a>
-          . i graduated high school june 2024 and am taking a gap year!
-        </p>
-
-        <p className="pb-4">
-          right now, i'm located in vermont, usa. but!! i grew up in waterloo,
-          ontario, canada.{" "}
-          <i>
-            <s>rawhh</s>
-          </i>
-        </p>
-
-        <p className="pb-2 pt-4">some things i do:</p>
-
-        <ul className="">
-          <li className="pb-2">
-            code! i built this site using react + tailwind. check out my{" "}
-            <s>wasteland</s>{" "}
-            <a href="https://github.com/acornitum" className="text-cmykYel">
-              github
+          <p className="pb-4">
+            i'm currently building things @{" "}
+            <a href="https://hackclub.com" className="text-cmykYel">
+              hack club
             </a>
-            !
-          </li>
-          <li className="pb-2">
-            design + art stuff - i use figma and procreate!
-          </li>
-          <li className="pb-8">yap - i mean, debate~ (bp best format)</li>
-        </ul>
+            . i graduated high school june 2024 and am taking a gap year!
+          </p>
 
-      </div>
+          <p className="pb-4">
+            right now, i'm located in vermont, usa. but!! i grew up in waterloo,
+            ontario, canada.{" "}
+            <i>
+              <s>rawhh</s>
+            </i>
+          </p>
 
+          <p className="pb-2 pt-4">some things i do:</p>
+
+          <ul className="">
+            <li className="pb-2">
+              code! i built this site using react + tailwind. check out my{" "}
+              <s>wasteland</s>{" "}
+              <a href="https://github.com/acornitum" className="text-cmykYel">
+                github
+              </a>
+              !
+            </li>
+            <li className="pb-2">
+              design + art stuff - i use figma and procreate!
+            </li>
+            <li className="pb-8">yap - i mean, debate~ (bp best format)</li>
+          </ul>
+        </div>
       </div>
-      
     </div>
   );
 }
 
 function Title() {
   return (
-    <div className="relative inline-block text-center w-10 h-10 font-bold title-font2" style={{fontSize: "36px"}}>
+    <div
+      className="relative inline-block text-center w-10 h-10 font-bold title-font2"
+      style={{ fontSize: "36px" }}
+    >
       <div className="absolute @apply -translate-x-[46%] -translate-y-[54%] left-2/4 top-2/4 text-cmykYel title-font">
         acon
       </div>

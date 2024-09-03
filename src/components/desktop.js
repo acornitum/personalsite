@@ -388,53 +388,48 @@ function Stickers() {
   return (
     <div className="select-none opacity-50 sticker">
       <img
-      src="https://cloud-f0tj1z2sp-hack-club-bot.vercel.app/0image.png"
-      alt="sleep deprived anime sticker"
-      className="absolute top-52 left-72 transform -translate-x-1/2 mx-auto w-72 h-auto -rotate-12"
-      draggable="false"
-    />
-    <img
-      src="https://cloud-8lgw8o0y8-hack-club-bot.vercel.app/0image.png"
-      alt="moth dragon oc art"
-      className="absolute left-36 transform -translate-x-1/2 mx-auto w-72 h-auto -rotate-90"
-      style={{transform: 'rotate(-24deg)', top:'450px'
-      }}
-      draggable="false"
-    />
+        src="https://cloud-f0tj1z2sp-hack-club-bot.vercel.app/0image.png"
+        alt="sleep deprived anime sticker"
+        className="absolute top-52 left-72 transform -translate-x-1/2 mx-auto w-72 h-auto -rotate-12"
+        draggable="false"
+      />
+      <img
+        src="https://cloud-8lgw8o0y8-hack-club-bot.vercel.app/0image.png"
+        alt="moth dragon oc art"
+        className="absolute left-36 transform -translate-x-1/2 mx-auto w-72 h-auto -rotate-90"
+        style={{ transform: "rotate(-24deg)", top: "450px" }}
+        draggable="false"
+      />
 
-    <img
-      src="https://cloud-ait4cefi2-hack-club-bot.vercel.app/0aconanime.png"
-      alt="acon anime sticker"
-      className="absolute left-48 transform -translate-x-1/2 mx-auto w-72 h-auto -rotate-90"
-      style={{transform: 'rotate(-45deg)', top:'350px'
-      }}
-      draggable="false"
-    />
-    
+      <img
+        src="https://cloud-ait4cefi2-hack-club-bot.vercel.app/0aconanime.png"
+        alt="acon anime sticker"
+        className="absolute left-48 transform -translate-x-1/2 mx-auto w-72 h-auto -rotate-90"
+        style={{ transform: "rotate(-45deg)", top: "350px" }}
+        draggable="false"
+      />
 
-
-    <img
-      src="https://cloud-lb566uwis-hack-club-bot.vercel.app/0image.png"
-      alt="figma anime parody"
-      className="absolute top-96 transform -translate-x-1/2 mx-auto w-72 h-auto rotate-12 opacity-35"
-      style={{right:'120px'}}
-      draggable="false"
-    />
-    <img
-      src="https://cloud-cn1eo77un-hack-club-bot.vercel.app/0image.png"
-      alt="favicon cat art"
-      className="absolute top-72 transform -translate-x-1/2 mx-auto w-28 h-auto rotate-6 opacity-90"
-      style={{right:'240px'}}
-      draggable="false"
-    />
-    <img
-      src="https://cloud-9dru5n6rx-hack-club-bot.vercel.app/0image.png"
-      alt="moth dragon oc art"
-      className="absolute transform -translate-x-1/2 mx-auto w-72 h-auto rotate-12"
-      style={{right:'120px', top:"480px"}}
-      draggable="false"
-    />
+      <img
+        src="https://cloud-lb566uwis-hack-club-bot.vercel.app/0image.png"
+        alt="figma anime parody"
+        className="absolute top-96 transform -translate-x-1/2 mx-auto w-72 h-auto rotate-12 opacity-35"
+        style={{ right: "120px" }}
+        draggable="false"
+      />
+      <img
+        src="https://cloud-cn1eo77un-hack-club-bot.vercel.app/0image.png"
+        alt="favicon cat art"
+        className="absolute top-72 transform -translate-x-1/2 mx-auto w-28 h-auto rotate-6 opacity-90"
+        style={{ right: "240px" }}
+        draggable="false"
+      />
+      <img
+        src="https://cloud-9dru5n6rx-hack-club-bot.vercel.app/0image.png"
+        alt="moth dragon oc art"
+        className="absolute transform -translate-x-1/2 mx-auto w-72 h-auto rotate-12"
+        style={{ right: "120px", top: "480px" }}
+        draggable="false"
+      />
     </div>
-    
   );
 }
