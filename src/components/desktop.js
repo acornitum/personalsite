@@ -177,7 +177,7 @@ function About() {
         x: 0,
         y: 0,
         width: 400,
-        height: 530,
+        height: 515,
       }}
       enableResizing={false}
     >
@@ -274,7 +274,7 @@ function About() {
           </li>
         </ul>
 
-        <p className="pt-8 pb-4 text-sm italic">
+        <p className="pt-8 pb-2 text-sm italic">
           by the way, you can interact with these boxes! drag 'em around, move
           'em offscreen, and prolly more.
         </p>
@@ -394,6 +394,15 @@ function Stickers() {
       draggable="false"
     />
     <img
+      src="https://cloud-8lgw8o0y8-hack-club-bot.vercel.app/0image.png"
+      alt="moth dragon oc art"
+      className="absolute left-36 transform -translate-x-1/2 mx-auto w-72 h-auto -rotate-90"
+      style={{transform: 'rotate(-24deg)', top:'450px'
+      }}
+      draggable="false"
+    />
+
+    <img
       src="https://cloud-ait4cefi2-hack-club-bot.vercel.app/0aconanime.png"
       alt="acon anime sticker"
       className="absolute left-48 transform -translate-x-1/2 mx-auto w-72 h-auto -rotate-90"
@@ -401,6 +410,9 @@ function Stickers() {
       }}
       draggable="false"
     />
+    
+
+
     <img
       src="https://cloud-lb566uwis-hack-club-bot.vercel.app/0image.png"
       alt="figma anime parody"

@@ -14,7 +14,7 @@ export default function Mobile() {
         <Title />
         
         <p>
-          maker of things
+          i make things sometimes
           /ᐠ｡ꞈ｡ᐟ\
         </p>
       </div>
